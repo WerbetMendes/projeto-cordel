@@ -34,10 +34,10 @@ header {
 
 header h1{
     font-family: var(--fonte-alternativa);
-    font-size: 3em;
+    font-size: 10vw;
     padding-top: 50px;
-    font-weight: bold;
     font-variant: small-caps;
+    font-weight: bold;
 }
 
 header > p {
@@ -61,27 +61,41 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.imagem {
     background-color: black;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     background-color: black;
     text-shadow: 1px 1px 0px black;
-    width: 550px;
+    display: inline-block;
+    padding: 5px;
 
 }
 
 #joaninha {
     background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    
 
 }
 
-#cartas {
+section#cartas {
     background-image: url('imagens/background002.jpg');
+
+    
+}
+
+section#cartas p {
+    box-shadow: rgba(0, 0, 0, 0.14);
+
+    
 }
 
 footer {
