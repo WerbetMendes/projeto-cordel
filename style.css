@@ -7,4 +7,89 @@
 :root {
     --fonte-padrao: 'Sriracha', cursive; 
     --fonte-alternativa: 'Passion One', cursive;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+}
+
+body p {
+    line-height: 2em;
+ 
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte-alternativa);
+    font-size: 3em;
+    padding-top: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--fonte3);
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p {
+    background-color: black;
+    text-shadow: 1px 1px 0px black;
+    width: 550px;
+
+}
+
+#joaninha {
+    background-image: url('imagens/background001.jpg');
+
+}
+
+#cartas {
+    background-image: url('imagens/background002.jpg');
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte3);
+    font-size: 15px;
+    padding: 10px;
+}
+
